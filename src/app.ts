@@ -2,6 +2,8 @@ import express from "express";
 
 import bodyParser from "body-parser";
 
+import cors from "cors";
+
 import newsPapersRoutes from "./routes/newspapers.route";
 
 import publishersRoutes from './routes/publishers.route';
@@ -13,6 +15,8 @@ import fileUpload from "express-fileupload";
 const app = express();
 
 app.use(bodyParser.json());
+
+app.use(cors());
 
 app.use(
   fileUpload({
