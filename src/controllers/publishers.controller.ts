@@ -41,6 +41,7 @@ export const GET_ONE = async (req: Request, res: Response) => {
           id: true,
           link: true,
           abstract: true,
+          image: true,
           creationDate: true,
           title: true,
         },
