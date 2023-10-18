@@ -82,7 +82,7 @@ export const PUT = async (req: Request, res: Response) => {
 
   return res
     .status(200)
-    .json({ message: "publisher updated successfully", updatedPublisher });
+    .json({ message: "publisher created successfully", updatedPublisher });
 };
 
 export const DELETE = async (req: Request, res: Response) => {
