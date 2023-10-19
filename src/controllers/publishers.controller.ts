@@ -34,6 +34,7 @@ export const GET_ONE = async (req: Request, res: Response) => {
       id: +id,
     },
     select: {
+      id: true
       names: true,
       joinedDate: true,
       newsPapers: {
