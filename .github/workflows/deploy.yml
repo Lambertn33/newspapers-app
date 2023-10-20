@@ -34,7 +34,7 @@ jobs:
         run: |
           touch .env
           echo "${{secrets.PROD_ENV_FILE}}" > .env
-      - name: restart pm2
+      - name: (re)start pm2
         run: /home/ubuntu/.nvm/versions/node/v18.18.1/bin/pm2 restart app
       
 
