@@ -28,8 +28,8 @@ app.use(
 
 app.use("/api", homeRoutes);
 
-app.use("/api/newspapers", newsPapersRoutes);
-
 app.use("/api/publishers", publishersRoutes);
+
+app.use("/api/newspapers", newsPapersRoutes);
 
 app.listen(4000);
