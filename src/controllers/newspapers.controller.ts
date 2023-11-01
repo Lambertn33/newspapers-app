@@ -29,6 +29,7 @@ export const GET = async (_: Request, res: Response) => {
       title: true,
       publisher: {
         select: {
+          id: true,
           names: true,
         },
       },
