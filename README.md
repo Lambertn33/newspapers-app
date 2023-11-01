@@ -10,6 +10,9 @@ A simple Javascript application that manages newspapers and related publishers
 # frontend repo
 - https://github.com/Lambertn33/newspapers-app-client
 
+# mobile repo
+- https://github.com/Lambertn33/newspapers-app-native
+
 # steps to run the project
 - clone the project
 - npm i
